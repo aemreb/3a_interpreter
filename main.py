@@ -2,6 +2,7 @@
 import xml.dom.minidom as md
 import sys
 
+#TODO get rid of global variable
 
 try:
     DOMTree = md.parse("test.xml")
